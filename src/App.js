@@ -95,6 +95,12 @@ const changeItem = itemNumber => {
       <ToastContainer position="bottom-center" />
       <Row>
         <Col md={6} className="offset-md-3">
+
+        <Button 
+          onClick={reloadGame}
+          color="success"
+        > 
+        Reset Game </Button>
           {winMessage ? (
             
             <div className="mb-2 mt-2">
@@ -127,6 +133,7 @@ const changeItem = itemNumber => {
         </Col>
       </Row>
     </Container>
+   
   );
 };
 
