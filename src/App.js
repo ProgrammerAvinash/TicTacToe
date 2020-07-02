@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
+
 
 import Icon from "./components/Icon";
 
@@ -99,8 +99,8 @@ const changeItem = itemNumber => {
         <Button 
           onClick={reloadGame}
           color="success"
-        > 
-        Reset Game </Button>
+        >  Reset Game </Button>
+        
           {winMessage ? (
             
             <div className="mb-2 mt-2">
